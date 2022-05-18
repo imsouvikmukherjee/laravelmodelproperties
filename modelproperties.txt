@@ -1,0 +1,16 @@
+
+protected $table = 'students';
+
+protected $primaryKey = 'stu_id';
+
+protected $keyType = 'string';
+
+public $incrementing = false;
+
+public $timestamps = false;
+
+const CREATED AT = 'creation_date';
+
+const UPDATED_AT = 'updation_date';
+
+  protected $fillable = ['name', 'email', 'address'];
